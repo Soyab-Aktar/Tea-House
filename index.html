@@ -11,10 +11,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!--? Setup icon -->
     <script src="https://kit.fontawesome.com/ac27b5cffa.js" crossorigin="anonymous"></script>
+    <style>
+        .manrope {
+            font-family: "Manrope", serif;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="manrope">
+    <main class="max-w-screen-2xl mx-auto px-16 lg:px-28">
 
+        <!--? Header Section -->
+        <section class="pt-10 mb-20 flex justify-between items-center">
+            <!--* Text Content -->
+            <div class="flex flex-col gap-7">
+                <h1 class="text-5xl md:text-7xl font-extrabold">It's good <br>tea time at The <br>Tea House</h1>
+                <p class="font-medium text-gray-500">Tea and Botanical Solutions Supplier Give Optimum<br> Satisfaction
+                    To Your Taste Buds.</p>
+                <div>
+                    <button
+                        class="bg-gradient-to-r from-orange-500 to-red-500 p-5 rounded-lg text-white font-bold text-xl">Explore
+                        More <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></button>
+                </div>
+            </div>
+            <!--* Image Content -->
+            <div class="flex flex-col relative">
+                <img class="w-full" src="images/banner.png" alt="">
+                <div class=" absolute flex w-64 bg-white px-6 py-5 rounded-xl items-center shadow-lg gap-3 bottom-6 left-24">
+                    <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+                    <div>
+                        <h4 class="text-3xl font-extrabold">5.00</h4>
+                        <p class="font-semibold text-gray-500">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+            <!--* CARD -->
+
+        </section>
+
+    </main>
 </body>
 
 </html>
